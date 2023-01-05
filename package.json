@@ -10,9 +10,6 @@
       }
     }
   },
-  "engines": {
-    "node": "14.0.0"
-  },
   "scripts": {
     "dev-client": "if [ -d ./dist ]; then rm -r ./dist; fi && parcel ./client/index.html --target=frontend",
     "dev-server": "ts-node-dev --respawn --project ./node.tsconfig.json ./server/index.ts",
